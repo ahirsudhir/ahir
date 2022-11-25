@@ -1,0 +1,36 @@
+body{
+    margin: 0%;
+}
+header{
+    background-color: black;
+}
+.flex-container{
+    display: flex;
+}
+header ul{
+    list-style-type: none;
+}
+header ul li{
+    display: inline;
+    margin-left: 50px;
+}
+header ul li a{
+    color: aliceblue;
+    font-size: 18px;
+    text-decoration: none;
+    transition: 2s all;
+}
+header ul li a:hover{
+    color: blue;
+}
+.left-header{
+    flex: 50%;
+}
+:right-header{
+     flex: 50%;
+}
+/*nav css starts here*/
+nav{
+    background-color: blueviolet;
+    
+}
